@@ -261,3 +261,23 @@ textarea {
   }
 }
 
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.images li {
+  margin-bottom: 20px;
+}
+
+.images img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.loader {
+  opacity: 0;
+}
